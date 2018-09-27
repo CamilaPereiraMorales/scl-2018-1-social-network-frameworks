@@ -35,9 +35,7 @@ usuarioLogueado(event) {
 
  
   render() {
-      if (this.state.usuarioLogueado !== null){
-        return <Redirect to='/perfil' />
-      }
+  
     return (
       <div>
         <Row>
